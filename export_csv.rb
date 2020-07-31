@@ -31,7 +31,8 @@ s=CSV.generate do |csv|
     csv << x.values
   end
 end
-File.write('the_file01.csv', s)
+File.write('the_file02.csv', s)
+
 
 
 
