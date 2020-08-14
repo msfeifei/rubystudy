@@ -1,8 +1,8 @@
 #!/usr/bin/ruby
 # -*- coding: UTF-8 -*-
 require 'json'
-require 'FARADAY'
-require 'CSV'
+require 'faraday'
+require 'csv'
 require 'dotenv'
 Dotenv.load ('.env')
 TOKEN = ENV['TOKEN']
