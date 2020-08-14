@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 # -*- coding: UTF-8 -*-
-require 'JSON'
+require 'json'
 require 'FARADAY'
 require 'CSV'
 require 'dotenv'
@@ -39,7 +39,6 @@ class Student
         @first_name + ' ' + @last_name #return value
     end
 end
-
 stud.each do |s| #s means every data in Array
     #p "#{s['first_name']}, #{s['last_name']}"
 
@@ -47,4 +46,3 @@ stud.each do |s| #s means every data in Array
     #p s.class #Hash
     p student.full_name
 end
-
